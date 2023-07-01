@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oladapo Portfolio Website</title>
+    <link rel="stylesheet" href="./css/style.css">
+    
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="">
+    <div class=" bg-center h-screen w-screen " style="background-image: url(./images/Background\ 3.png);">
+
+        <div class="flex flex-col w-auto relative">
+          <header class=" py-4 ">
+            <div class=" container mx-auto flex justify-between w-auto p-4 fixed left-0 right-0 top-0 
+            z-50 rounded-xl border border-primary bg-gradient-to-r from-primary to-black" >
+                <div>
+                  <h2 class=" text-white font-poppins font-semibold text-xl">OF.</h2>
+                </div>
+
+                <div class=" hidden lg:block">
+                  <div class="flex gap-8">
+                    <a href="#" class="text-base text-white hover:text-primary hover:underline transition duration-300">Home</a>
+ 
+                    <a href="#About" class="text-base text-white hover:text-primary hover:underline transition duration-300">About</a>
+ 
+                    <a href="#Project" class="text-base text-white hover:text-primary hover:underline transition duration-300">Project</a>
+ 
+                    <a href="#Contact" class="text-base text-white hover:text-primary hover:underline transition duration-300">Contact</a>
+ 
+                    <a href="#"> <span>
+                      <i class="fa fa-github text-primary" style="font-size:36px"></i>
+                     </span></a>
+
+                     
+
+                     
+                 </div>
+              
+                </div>
+
+                
+                <div class=" lg:hidden" >
+                 <a href="#" class="hidden" id="hambuger-hide"> <span>
+                  <i class='fa fa-times  text-primary' style='font-size:36px'></i>
+      
+                  </span></a>
+                   
+                  <a href="#" class="" id="hambuger-show">
+                    <span><i class=" fa fa-bars text-primary " style="font-size:36px"></i></span>
+                  </a>
+
+                </div>
+
+               
+                
+            </div>
+        </header>
+
+        
+           <div class="hidden" id="dropdown">
+                    <div class="bg-primary flex flex-col gap-2 py-3 w-screen h-auto absolute text-center top-16">
+                      <a href="#" class="text-base text-white hover:text-gray-900 hover:underline transition duration-300">Home</a>
+ 
+                    <a href="#About" class="text-base text-white hover:text-gray-900 hover:underline transition duration-300">About</a>
+ 
+                    <a href="#Project" class="text-base text-white hover:text-gray-900 hover:underline transition duration-300">Project</a>
+ 
+                    <a href="#Contact" class="text-base text-white hover:text-gray-900 hover:underline transition duration-300">Contact</a>
+                    </div>
+ 
+
+                     
+                 </div>
+      
+        </div>
+
+
+
+        <div class="container mx-auto sm:mt-28 md:mt-40 mt-40 block text-center space-y-5 ">
+            
+            <div>
+                <button class=" h-10 w-10 border border-primary rounded-2xl
+                 shadow-inner animate-pulse animation-duration  bg-gradient-to-r from-primary to-#115ff5 text-xl font-poppins font-semibold text-slate-300"> OF </button>
+            </div>
+
+           <div class="w-screen sm:w-auto">
+            <h1 class=" text-white md:leading-10 leading-7 font-poppins font-medium text-xl md:text-4xl px-8  ">As a <span class="text-primary">full stack developer</span>, I specialize in <br>
+                building and maintaining the user <br> 
+                interface of web applications.</h1>
+           </div>
+           
+            <div class="px-12"> <p class=" text-gray-300 font-poppins lg:font-normal font-extralight leading-5 md:text-base text-sm pt-2 ">I have a strong foundation in HTML, CSS, and JavaScript,
+                          and , I am skilled in creating interactive and visually appealing websites that integrate seamlessly with the back-end.</p> </div>
+
+           <div class="pt-4">
+            <a href="#" class="bg-primary border border-primary 
+            sm:px-14 px-8 py-2 sm:text-base text-sm rounded-md font-medium uppercase hover:bg-transparent hover:text-primary transition" >
+              Read more
+            </a>
+           </div>
+         
+        </div>
+
+        <div class="container mx-auto flex flex-row justify-center mt-20 md:mt-20 gap-10   ">
+            <img src="images/Frame 27.png" alt="" class=" animate-bounce animate-ease-in-out">
+            <img src="images/Frame 28-1.png" alt="" class="animate-pulse animate-ease-out">
+            <img src="images/Frame 28-2.png" alt="" class="animate-bounce animate-ease-in">
+            <img src="images/Frame 28.png" alt="" class="animate-pulse animate-ease-in">
+        </div>
+    </div>
+
+    <!-----------------ABOUT START--------------->
+    <section id="About">
+        <div  class="sm:bg-center bg-left-bottom
+                      bg-cover bg-no-repeat w-screen h-auto" style="background-image: url(./images/Mobile.png);">
+            <div class="container mx-auto flex flex-col lg:flex-row p-10">
+      
+              <div class="lg:w-5/12 lg:relative">
+                <img class="lg:absolute md:ml-24 lg:right-24 p-3 object-cover bg-custom-color h-auto" src="./images/Dimeji.png" alt="">
+              </div>
+      
+              <div class=" lg:w-7/12  mt-14 py-14 px-10 gap-6 flex flex-col"> 
+                <div class="container mx-auto pt-20 flex justify-center lg:justify-start">
+      
+                  <h1 class=" flex text-white font-poppins font-bold text-3xl md:text-5xl  text-center
+                  border-b-2 sm:border-b-4 border-primary justify-center s">About Me</h1>
+                 
+               </div>
+
+                <div class="">
+                  <p class="flex justify-center lg:justify-start text-center lg:text-start text-primary font-poppins font-normal sm:font-medium text-xl sm:text-2xl animate-pulse"> Hello, I’m Oladimeji Falusi </p>
+                </div>
+
+                <div>
+                  <p class=" flex justify-center lg:justify-start lg:text-start text-center text-gray-300  font-poppins lg:font-normal font-extralight text-sm lg:text-base">I'm Oladimeji Falusi, a full-stack web developer with over two years of experience. I specialize in creating responsive, user-friendly websites using modern technologies like React, Node.js, and MongoDB. Let's work together to bring your vision to life - check out my project page and resume and get in touch!</p>
+                </div>
+              
+                <div class="sm:pt-4 pt-4 flex lg:justify-start justify-center">
+                  <a href="#" class="bg-primary border border-primary 
+                  sm:px-14 px-8 py-2 sm:text-base text-sm  rounded-md font-medium uppercase hover:bg-transparent hover:text-primary transition" >
+                    Resume
+                  </a>
+                </div>
+                
+                
+                
+              
+                    
+              </div>
+              
+      
+              
+            </div>
+      
+      
+            
+      
+          </div>
+
+          <!-----------------ABOUT END--------------->
+    </section>
+     
+     <!-----------------PROJECT START--------------->
+
+    <section class="" id="Project">
+      <div  class="bg-center 
+      bg-cover bg-no-repeat w-screen  h-auto " style="background-image: url(./images/Mobile.png);">
+        
+      <div class="container mx-auto pt-20 flex justify-center">
+      
+         <h1 class=" flex text-white font-poppins font-bold text-3xl md:text-5xl  text-center
+         border-b-2 sm:border-b-4 border-primary justify-center s">PROJECTS</h1>
+        
+      </div>
+
+      <div class="container mx-auto py-10 flex lg:flex-row flex-col gap-5">
+        
+        <div class="lg:w-4/12 w-screen flex flex-col mt-10 ">
+          <div class=" px-10 lg:px-0 flex flex-col justify-start items-center lg:items-start space-y-4">
+            <h2 class=" flex text-white font-poppins  font-thin  sm:font-thin text-base lg:text-2xl"> UI / UX Behance Projects </h2>
+            <p class=" flex text-gray-300 font-poppins lg:text-start text-center lg:font-normal font-extralight text-sm lg:text-base  "> 
+              I created a clean, minimalistic design showcasing my work in the best possible light.
+               Next, I created a wireframe and iterated on the design until I was satisfied with the layout.
+                The final design features a muted colour palette and bold typography highlighting my work.
+                 I also included a prominent call-to-action button encouraging visitors to view my portfolio.</p>
+       
+                 <div class="pt-4 flex gap-4">
+                  <button class="text-xs py-2 px-6 rounded-md text-white border border-primary bg-primary
+              hover:text-primary hover:bg-transparent transition">See Live</button>
+       
+              <button class="text-xs py-2 px-6 rounded-md text-primary  bg-transparent
+              hover:text-white hover:bg-primary transition">Source Code</button>
+                  
+                 </div>
+          </div>
+        </div>
+
+        <div class="lg:w-8/12 flex justify-center lg:justify-end">
+          <img src="images/MacBook Air - 1001.png" alt="" class="rounded-xl sm:w-auto w-80 shadow-2xl transform hover:scale-110 transition duration-700">
+        </div>
+
+      </div>
+
+      
+
+
+
+
+
+      </div>
+    </section>
+
+    <!-----------------PROJECT END--------------->
+    
+    <!----------Contact me Start--------->
+    
+    <section id="Contact">
+      <div  class="bg-center 
+      bg-cover bg-no-repeat w-screen h-auto " style="background-image: url(./images/Desktop\ 2.png);">
+         
+      <div class="container mx-auto  ">
+        <div class="container mx-auto pt-20 flex justify-center">
+      
+          <h1 class=" flex text-white font-poppins font-bold text-3xl md:text-5xl  text-center
+          border-b-2 sm:border-b-4 border-primary justify-center s">Contact</h1>
+         
+       </div>
+      </div>
+
+      <div class="container mx-auto flex flex-wrap space-y-3 sm:space-y-0 mt-10 justify-around">
+         <div class=" text-center  w-60 h-52 pt-5 border border-primary bg-gradient-to-r from-primary to-black rounded-2xl
+          shadow-2xl  transform hover:animate-bounce transition duration-700">
+           <div class="flex justify-center pb-6"><img src="./images/mail.png" alt=""></div>
+          <h2 class="text-lg font-poppins text-white">Email</h2>
+          <p class="text-base font-poppins text-gray-300">oladapofalusi@gmail.com</p>
+
+
+         </div>
+
+
+         <div class=" text-center  w-60 h-52 pt-5 border border-primary bg-gradient-to-r from-primary to-black rounded-2xl
+          shadow-2xl  transform hover:animate-bounce transition duration-700">
+           <div class="flex justify-center pb-6"><img src="./images/mail.png" alt=""></div>
+          <h2 class="text-lg font-poppins text-white ">Address</h2>
+          <p class="text-base font-poppins text-gray-300">Alberta</p>
+
+
+         </div>
+
+
+
+         <div class=" text-center  w-60 h-52 pt-5   border border-primary bg-gradient-to-r from-primary to-black rounded-2xl
+          shadow-2xl  transform hover:animate-bounce transition duration-700">
+           <div class="flex justify-center pb-6"><img src="./images/mail.png" alt=""></div>
+          <h2 class="text-lg font-poppins text-white">Call me</h2>
+          <p class="text-base font-poppins text-gray-300"></p>
+
+
+         </div>
+
+         
+        
+
+
+      </div>
+
+      <!----------Contact me Ends--------->
+   
+      <!----------form feild me Start--------->
+
+      <div class="container mx-auto flex mt-10 gap-4 sm:gap-0">
+
+
+          <!-- Get in touch starts -->
+
+    <div class="flex container items-center flex-col lg:flex-row mx-auto mt-20 bg-custom-color">
+       
+      <div class=" w-11/12  lg:w-7/12 m-10 container bg-white flex flex-col rounded-2xl justify-center border border-white p-14 shadow-2xl">
+
+          <div class=" mt-10 flex flex-col items-center lg:items-start ">
+              <h2 class=" text-xl lg:text-3xl pt-9 lg:pt-0  font-semibold text-gray-600">
+                 Get In Touch
+              </h2>
+              <p class="border-b-2 md:border-b-2 border-primary w-32 mt-10 relative">         
+              </p>
+          </div>
+         
+          <div class=" mt-10">
+              <input id="input-field" type="text" class="shadow appearance-none border border-primary
+              rounded w-full py-2 px-4 text-gray-700 leading-tight
+               focus:outline-none focus:ring-2 focus:ring-primary
+               focus:border-primary" placeholder="Enter your name">
+          </div>
+
+          <div class=" mt-5">
+              <input id="input-field" type="text" class="shadow appearance-none border border-primary
+              rounded w-full py-2 px-4 text-gray-700 leading-tight
+               focus:outline-none focus:ring-2 focus:ring-primary
+               focus:border-primary" placeholder="Enter email address">
+          </div>
+          
+          <div class=" mt-5">
+      
+              <textarea id="input-field" name="input-field" class="block w-full h-64 px-2 py-4 text-gray-700
+               bg-white border border-primary rounded-md focus:outline-none focus:ring-2 focus:ring-primary
+                focus:border-primary" placeholder="Enter Message Here"></textarea>
+          </div>
+
+          <div class=" flex lg:justify-start justify-center mt-5">
+              <button class=" text-lg py-2 px-7 rounded-md text-white border border-primary bg-primary
+              hover:text-primary hover:bg-transparent transition">Send message</button>
+          </div>
+
+            
+      </div>
+
+
+      <div class="lg:w-5/12 m-10 container flex flex-col p-14 mx-auto">
+          <div class=" mt-5 lg:mt-10 flex flex-col items-center lg:items-start">
+              <h2 class=" text-xl lg:text-3xl pt-4 lg:pt-0  font-semibold text-gray-100">
+                Message Me
+              </h2>
+              <p class="border-b-2 md:border-b-2 border-primary w-32 mt-10 relative">         
+              </p>
+          </div>
+
+          <div class="mt-10">
+              <h4 class="text-lg text-gray-300 text-center lg:text-start font-medium">
+                  Please feel free to call or email us, or use our contact form to get in touch with us.
+              </h4>
+          </div>
+
+          <div class="mt-10">
+              <h4 class="text-lg text-gray-300 text-center lg:text-start font-medium">
+                  We look forward to hearing from you!
+              </h4>
+          </div>
+
+
+          <div class="  flex gap-10 mt-10 justify-center lg:justify-start">
+              <a href=""><i class='fa fa-facebook-square text-primary' style='font-size:24px'></i></a>
+              <a href=""><i class='fa fa-linkedin text-primary' style='font-size:24px'></i></a>
+              <a href=""><i class='fa fa-twitter text-primary' style='font-size:24px'></i></a>
+              <a href="#">
+                <i class="fa fa-github text-primary" style="font-size:24px"></i>
+              </a>
+             </div>
+      
+      </div>
+  </div>
+
+  <!-- Get in touch ends -->
+
+
+      </div>
+    </section>
+
+    
+
+      <footer >
+        <div class=" flex flex-col lg:flex-row p-5 bg-gradient-to-r from-primary to-black space-y-4 items-center justify-center lg:justify-between">
+           <div class=" flex ">
+            <p class="text-base text-end  text-white">
+              Copyright @ 2023  
+            </p>
+            </div>
+     
+            <div class="">
+             <h4 class="text-lg text-white">oladimejifalusi@gmail.com</h4>
+           </div>
+        </div>
+     
+        
+     </footer>
+    <script src="custom.js"></script>
+</body>
+</html>  
